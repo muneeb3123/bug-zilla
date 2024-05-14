@@ -1,0 +1,29 @@
+.logo-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 3rem;
+    color: #333333cb;
+  }
+  
+  
+  .Users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+  }
+  
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .user-img {
+    width: 30%;
+  }
