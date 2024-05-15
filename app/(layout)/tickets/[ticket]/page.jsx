@@ -201,12 +201,10 @@ const Ticket = () => {
         <div className=" bg-white flex flex-col gap-4 p-4">
           <strong>attachement</strong>
           {ticket.screenshot_url && (
-            <Image
-              width={100}
-              height={50}
+            <image
               alt="screenshot"
               onClick={() => setIsOpen(true)}
-              className=" hover:scale-90 transition-scal duration-200"
+              className=" hover:scale-90 transition-scal duration-200 w-[100px] h-[50px]"
               src={ticket.screenshot_url}
             />
           )}
